@@ -1,0 +1,125 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .navbar a:hover {
+   border-bottom: 0.5px white solid;
+}
+ .banner-custom{
+   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1920,fit=crop/donuuu35/alexander-popov-hlb_kDPPXhI-unsplash-Yyvv855e7gSVlLq9.jpg");
+   background-size: cover;
+   background-position: center;   
+}
+.changeColor {
+   background-color: black;
+   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.changeColor a{
+   color: #000;
+}
+.changeColor a:hover{
+   color: white;
+}
+.card{
+   height: 496px;
+   width: 496px;
+}
+.slider1{
+   background-image:url("concert.webp");
+   background-size: cover;
+   background-position: center;
+   height: 656px;
+   
+}
+.slider2{
+   background-image:url("concert1.png");
+   background-size: cover;
+   background-position: center;
+   height: 656px;
+   
+}
+.slider3{
+   background-image:url("concert3.jpeg");
+   background-size: cover;
+   background-position: center;
+   height: 656px;
+   
+}
+.buy{  
+      font-weight: bold;
+      border-style: solid;
+      color: black;
+      background-color: white ;
+      width: 140px;
+      height: 50px;
+      text-decoration: none;
+      font-size: 14px;
+      margin-top: -5px;
+}
+.buy:hover{
+   transform: translateX(-15px);
+}
+.buy-1{
+   font-weight: bold;
+   border-style: none;
+   color: white;
+   background-color: #5395BD ;
+   width: 140px;
+   height: 50px;
+   text-decoration: none;
+   font-size: 14px;
+   margin-top: -5px;
+}
+.banner3{
+   background-image: url(bg1.webp);
+   background-size: cover;
+   background-position: center;  
+   height: 560px; 
+  
+}
+.banner12{
+   background-image: url(concert.2.avif);
+   background-size: cover;
+   background-position: center;  
+   height: 560px;
+} 
+.banner-custom1{
+   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/donuuu35/img-AGBBZn7MNEF1743o.jpg");
+   background-size: cover;
+   background-position: center;   
+}
+.banner-custom2{
+   background-image: url("tour.png");
+   background-size: cover;
+   background-position: center; 
+}
+.banner-custom3{
+   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/donuuu35/danny-howe-PfyKUyNvgIQ-unsplash-AQEE5DXkjpHgON6L.jpg");
+   background-size: cover;
+   background-position: center; 
+}
+.banner-custom4{
+   background-image: url("https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1440,fit=crop/donuuu35/img-Aq225rQ62MSlz7J8.png");
+   background-size: cover;
+   background-position: center; 
+}
+.buy-2{
+   font-weight: bold;
+   border-style: solid;
+   color: black;
+   background-color: white ;
+   width: 114px;
+   height: 34px;
+   text-decoration: none;
+   font-size: 12px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+   .banner-custom3{
+      height: 30vh !important;
+   }
+   .banner-custom3 h1{
+      font-size: 32px !important;
+   }
+ }
